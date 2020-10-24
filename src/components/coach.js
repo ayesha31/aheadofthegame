@@ -1,18 +1,26 @@
 import React from 'react';
-import logo from '../logo.svg';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+
+import { Link } from "react-router-dom";
 
 class Coach extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      description: 'Enter your answer here.'
+    };
+  }
     render() {
         return (
-            <div className="App">
-                coach questions
+          // render html? navbar here
+          <div className="App">
+            <div className="App-form">
+              <form>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tortor a magna ullamcorper cursus?</p>
+                <textarea value={this.state.description} />
+                <input id="button" type='submit' value="CONTINUE" />
+              </form>
             </div>
+          </div>
         );
     }
 }
