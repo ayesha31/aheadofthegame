@@ -24,7 +24,7 @@ class Login extends React.Component {
         }
         else if (this.props.location.user == 'player') {
             navigateTo = {
-                pathname: '/player',
+                pathname: '/game',
             }
         }
 
@@ -34,8 +34,6 @@ class Login extends React.Component {
                 <header className="App-header-login">
                     <div className="App-container">
                         <h2 className="heading">hello there!</h2>
-                        <h1>{this.props.location.user}</h1>
-
                         <form>
                             <p className="loginHeading">Session code</p> <br />
                             <input className="loginEntry" type="text" required /><br /><br />
