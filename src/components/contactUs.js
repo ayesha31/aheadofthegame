@@ -1,0 +1,33 @@
+import React from 'react';
+import logo from '../logo.svg';
+import './about.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
+class Contact extends React.Component {
+    render() {
+        return (<div className="App">
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <ul className="header"> About 
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contactUs">Contact Us</a></li>
+            </ul>
+            </header>
+            <div className="content">
+                    <h1> Do you have any Questions? </h1>
+                       <p> Contact Us: info@aheadofthegame.org.au
+                      </p>
+                
+        </div>
+        
+    </div>
+);
+}
+}
+export default Contact;
