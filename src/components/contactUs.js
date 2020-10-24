@@ -19,7 +19,11 @@ class Contact extends React.Component {
             <li><a href="/contactUs">Contact Us</a></li>
             </ul>
             </header>
-                <div className="content">
+            <div className="content">
+                    <h1> Do you have any Questions? </h1>
+                       <p> Contact Us: info@aheadofthegame.org.au
+                      </p>
+                
         </div>
         
     </div>

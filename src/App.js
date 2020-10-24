@@ -6,6 +6,7 @@ import Parent from './components/parent.js';
 import Coach from './components/coach.js';
 import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
+import About from './components/about.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <Link to="/parent">
             <li className="menuItemRight"><p>Contact</p></li>
           </Link>
-          <Link to="/parent">
+          <Link to="/about">
             <li className="menuItemRight"><p>About</p></li>
           </Link>
         </ul>
@@ -31,6 +32,7 @@ function App() {
         <Route path="/parent" component={Parent} />
         <Route path="/coach" component={Coach} />
         <Route path="/game" component={Game} />
+        <Route path="/about" component={About} />
       </div>
     </BrowserRouter>
   );
