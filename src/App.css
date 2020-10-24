@@ -31,6 +31,18 @@
   color: white;
 }
 
+.App-header-login {
+  background-image: url("./images/blueLockerRoom.png");
+  border: 1px solid black;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -81,7 +93,7 @@ li a:hover {
 .menuItemCentre {
   margin-left: 28%;
   font-weight: bold;
-  padding: 14px 0px;
+  padding: 14px 50px;
   font-size: 26px;
 }
 
@@ -100,6 +112,19 @@ li a:hover {
 .LPButton:hover {
   background-color: blue; 
   color: white;
+}
+
+p.loginHeading {
+  float: left;
+  margin: 0px;
+}
+
+.loginEntry {
+  float: left;
+  background-color: black;
+  color: white;
+  border-radius: 14px;
+  font-size: 21px;
 }
 
 @keyframes App-logo-spin {
