@@ -14,9 +14,9 @@ class Coach extends React.Component {
           // render html? navbar here
           <div className="App">
             <div className="App-form">
-              <form>
+              <form className="coach-form">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tortor a magna ullamcorper cursus?</p>
-                <textarea value={this.state.description} />
+                <textarea className="coach-text" value={this.state.description} />
                 <input id="button" type='submit' value="CONTINUE" />
               </form>
             </div>

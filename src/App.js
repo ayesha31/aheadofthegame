@@ -4,7 +4,6 @@ import './App.css';
 import Login from './components/login.js';
 import Parent from './components/parent.js';
 import Coach from './components/coach.js';
-import CoachSession from './components/coachSession.js';
 import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
 import About from './components/about.js'
@@ -30,10 +29,9 @@ function App() {
 
         <Route path="/" exact component={LandingPage} />
         <Route path="/login" exact component={Login} />
-        <Route path="/parent" component={Parent} />
-//         <Route path="/coach" component={Coach} />
+        <Route path="/parent" component={Parent} />         
+        <Route path="/coach" component={Coach} />
 
-        <Route path="/coachSession" component={CoachSession} />
         <Route path="/game" component={Game} />
         <Route path="/about" component={About} />
     
