@@ -14,9 +14,11 @@ function App() {
       <div>
         <ul>
           <li className="menuItemLeft"><img src={logo} className="App-logo" alt="logo" /></li>
-          <li className="menuItemCentre">Ahead of the game</li>
-          <Link to="/parent" parent><
-            li className="menuItemRight"><a href="#contact">Contact</a></li>
+          <Link to="/" parent>
+            <li className="menuItemCentre">Ahead of the game</li>
+          </Link>
+          <Link to="/parent" parent>
+            <li className="menuItemRight"><a href="#contact">Contact</a></li>
           </Link>
           <Link to="/parent" parent>
             <li className="menuItemRight"><a href="#about">About</a></li>
