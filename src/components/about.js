@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../logo.svg';
+import './about.css';
 import {
     BrowserRouter as Router,
     Switch,
@@ -19,6 +20,7 @@ class About extends React.Component {
             </ul>
             </header>
                 <div className="content">
+                
         </div>
         
     </div>
