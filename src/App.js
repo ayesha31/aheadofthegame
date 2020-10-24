@@ -31,7 +31,7 @@ function App() {
         <Route path="/" exact component={LandingPage} />
         <Route path="/login" exact component={Login} />
         <Route path="/parent" component={Parent} />
-//         <Route path="/coach" component={Coach} />
+    <Route path="/coach" component={Coach} />
 
         <Route path="/coachSession" component={CoachSession} />
         <Route path="/game" component={Game} />
