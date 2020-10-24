@@ -25,6 +25,7 @@ class Parent extends React.Component {
             <div className="App">
                 <header className="App-header">
                     <form onSubmit={this.handleSubmit}>
+                        <h1>{this.props.location.user}</h1>
                         <label>
                             Child's Full Name: <input type="text"
                                 value={this.state.value} onChange={this.handleChange}
