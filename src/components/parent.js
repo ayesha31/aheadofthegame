@@ -22,11 +22,11 @@ class Parent extends React.Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="App-parent">
                 <header className="App-header">
                     <form onSubmit={this.handleSubmit}>
                         <h1>{this.props.location.user}</h1>
-                        <label>
+                        <label className="parent-question">
                             Child's Full Name: <input type="text"
                                 value={this.state.value} onChange={this.handleChange}
                                 placeholder="Full Name (no nicknames)" required />

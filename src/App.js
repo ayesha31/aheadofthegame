@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './images/Mo_Black.jpg';
 import './App.css';
+import './parent.css';
 import Login from './components/login.js';
 import Parent from './components/parent.js';
 import Coach from './components/coach.js';
