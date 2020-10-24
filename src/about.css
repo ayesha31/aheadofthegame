@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   position: fixed;
@@ -7,7 +8,7 @@ header {
   height: 50px;
   line-height: 50px;
   background-color: #080808;
-  color: white
+  color: white;
 }
 header * {
   display: inline;
@@ -24,8 +25,10 @@ body {
   }
   .content {
     background-color:#D0D0D0;
-    padding: 20px;
-    color: black
+
+
+     padding: 20px;
+    color: black;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
