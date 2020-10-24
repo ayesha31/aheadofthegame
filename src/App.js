@@ -20,7 +20,7 @@ function App() {
           <Link to="/">
             <li className="menuItemCentre"><div>Ahead of the game</div></li>
           </Link>
-          <Link to="/parent">
+          <Link to="/contactUs">
             <li className="menuItemRight"><p>Contact</p></li>
           </Link>
           <Link to="/about">
