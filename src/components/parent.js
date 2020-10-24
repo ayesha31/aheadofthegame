@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from "react-router-dom";
 
-class ParentCoachFeedback extends React.Component {
+class Parent extends React.Component {
     constructor(props) {
         super(props);
         this.state = { value: '' };
@@ -39,4 +39,4 @@ class ParentCoachFeedback extends React.Component {
         );
     }
 }
-export default ParentCoachFeedback;
+export default Parent;

@@ -13,12 +13,12 @@ class Login extends React.Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                Hi
-                <form>
+            Hi
+            <form>
                         <span className="formtext"></span>
                         <input type="text" placeholder="Enter Session Code" required />
                         <Link to="/parentCoach">
-                            <button>Go!</button>
+                            <button>Play!</button>
                         </Link>
                     </form>
                 </header>
