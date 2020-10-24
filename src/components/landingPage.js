@@ -16,7 +16,7 @@ class LandingPage extends React.Component {
                         <h2 className="heading">are you a...?</h2>
                         <form>
                             <Link to="/parent" parent>parent</Link> <br />
-                            <Link to="/coach" parent>coach</Link><br />
+                            <Link to="/coachSession" parent>coach</Link><br />
                             <Link to="/player" parent>player</Link><br />
                         </form>
                     </div>
