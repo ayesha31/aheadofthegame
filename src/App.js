@@ -9,7 +9,6 @@ import Game from './components/cookieGame.js'
 import Player from './components/player.js'
 import Avatar from './components/avatar.js'
 import About from './components/about.js'
-import Avatar from './components/avatar.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Contact from './components/contactUs';
 
