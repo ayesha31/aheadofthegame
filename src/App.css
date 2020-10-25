@@ -129,7 +129,8 @@ p.loginHeading {
 }
 
 .Mud-avatar{
-  height: 70vmin;
+    height: 50vmin;
+    padding-bottom: 15px;
 }
 
 h2.question {

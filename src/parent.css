@@ -16,7 +16,11 @@
   color: white;
 }
 
-
+.App-parent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
 
 
