@@ -13,9 +13,9 @@ class Player extends React.Component {
           // render html? navbar here
           <div className="App">
             <div className="App-form">
-              <form className="coach-form">
+              <form className="player-form">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tortor a magna ullamcorper cursus?</p>
-                <textarea className="coach-text" value={this.state.description} />
+                <textarea className="player-text" value={this.state.description} />
                 <input id="button" type='submit' value="CONTINUE" />
               </form>
             </div>
