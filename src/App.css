@@ -153,3 +153,26 @@ h2.question {
 .coach-text {
   
 }
+
+.avatarSelection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_picker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 2.5%;
+}
+
+.image_picker > .responsive {
+  display: block;
+  justify-content: space-around;
+  /* padding: 0.5%; */
+}
