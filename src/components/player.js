@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 // import logo from '../logo.svg';
 // import {
@@ -46,3 +47,31 @@
 // }
 
 // export default Player;
+=======
+import React from 'react';
+import { Link } from "react-router-dom";
+
+class Player extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      description: 'Enter your answer here.'
+    };
+  }
+    render() {
+        return (
+          // render html? navbar here
+          <div className="App">
+            <div className="App-form">
+              <form className="coach-form">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tortor a magna ullamcorper cursus?</p>
+                <textarea className="coach-text" value={this.state.description} />
+                <input id="button" type='submit' value="CONTINUE" />
+              </form>
+            </div>
+          </div>
+        );
+    }
+}
+export default Player;
+>>>>>>> 6336dba4e4a3edf56ff1eba5b8b64bd5a18c5d0d

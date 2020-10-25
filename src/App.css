@@ -145,13 +145,38 @@ h2.question {
   }
 }
 
+.coach-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .coach-form {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #5A6275;
+  margin-top: 50px;
+  width: 50vw;
 }
 
 .coach-text {
-  
+  height: 20vh;
+  width: 40vw;
+  margin: 20px;
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#button {
+  background-color: white;
+  border: none;
+  color: #5A6275;
+  font-weight: 600;
+  font-size: 19px;
 }
 
 .avatarSelection {
@@ -176,3 +201,4 @@ h2.question {
   justify-content: space-around;
   /* padding: 0.5%; */
 }
+
