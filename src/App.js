@@ -38,7 +38,6 @@ function App() {
         <Route path="/player" component={Player} />
         <Route path="/avatar" component={Avatar} />
         <Route path="/about" component={About} />
-        <Route path="/avatar" component={Avatar} />
         <Route path="/contactUs" component={Contact} />
 
       </div>
