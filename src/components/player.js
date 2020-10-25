@@ -41,7 +41,8 @@ class Player extends React.Component {
             <div className="App"><br />
                 <h2 className="question">How are you feeling? Tap to change.</h2>
                 <img src={this.state.imgList[this.state.index]} className="Thermometer-select" alt="thermometerSelect" onClick={this.toggleImage} />
-                <Link to={'/player'}>
+                <br></br>
+                <Link to={'/avatar'}>
                     <button className="LPButton">Submit</button>
                 </Link>
             </div>
