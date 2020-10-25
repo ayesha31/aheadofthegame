@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from '../logo.svg';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+// import {
+//     BrowserRouter as Router,
+//     Switch,
+//     Route,
+//     Link
+// } from "react-router-dom";
 import ImagePicker from 'react-image-picker'
 import 'react-image-picker/dist/index.css'
 
