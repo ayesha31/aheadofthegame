@@ -12,6 +12,7 @@ import Player from './components/player.js'
 import Avatar from './components/avatar.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Contact from './components/contactUs';
+import mainlogo from './images/logo.png';
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <ul>
           <li className="menuItemLeft"><img src={logo} className="App-logo" alt="logo" /></li>
           <Link to="/">
-            <li className="menuItemCentre"><div>Ahead of the game</div></li>
+            <li className="menuItemCentre"><img src={mainlogo} className="App-logo" alt="mainlogo" /></li>
           </Link>
           <Link to="/contactUs">
             <li className="menuItemRight"><p>Contact</p></li>
