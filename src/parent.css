@@ -1,11 +1,21 @@
 .parent-question {
   color: black;
+  font-size: 1rem;
 }
 
-.app-parent {
-  background-image: none;
-  
+.App-header-parent {
+  background-color: white;
+  border: 1px solid black;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
+
 
 
 
