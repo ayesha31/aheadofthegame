@@ -14,9 +14,13 @@ class LandingPage extends React.Component {
                 <header className="App-header">
                     <div className="App-container">
                         <h2 className="heading">are you a...?</h2>
-                        <Link to={{ pathname: '/login', user: 'parent' }} ><button className="LPButton">parent</button></Link> <br /><br />
-                        <Link to={{ pathname: '/login', user: 'coach' }} parent><button className="LPButton">coach</button></Link><br /><br />
-                        <Link to={{ pathname: '/login', user: 'player' }} parent><button className="LPButton">player</button></Link><br /><br />
+
+                        <form>
+                            <Link to={{ pathname: '/login', user: 'parent' }} ><button className="LPButton">parent</button></Link> <br /><br />
+                            <Link to={{ pathname: '/login', user: 'coach' }} parent><button className="LPButton">coach</button></Link><br /><br />
+                            <Link to={{ pathname: '/login', user: 'player' }} parent><button className="LPButton">player</button></Link><br /><br />
+
+                        </form>
                     </div>
                 </header>
             </div>
