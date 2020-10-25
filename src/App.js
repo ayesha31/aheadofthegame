@@ -10,6 +10,7 @@ import Player from './components/player.js'
 import About from './components/about.js'
 import Avatar from './components/avatar.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import Contact from './components/contactUs';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/player" component={Player} />
         <Route path="/about" component={About} />
         <Route path="/avatar" component={Avatar} />
+        <Route path="/contactUs" component={Contact} />
 
       </div>
     </BrowserRouter>
