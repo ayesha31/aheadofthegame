@@ -7,8 +7,10 @@ import Coach from './components/coach.js';
 import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
 import Player from './components/player.js'
+import Avatar from './components/avatar.js'
 import About from './components/about.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import Contact from './components/contactUs';
 
 function App() {
 
@@ -30,12 +32,14 @@ function App() {
 
         <Route path="/" exact component={LandingPage} />
         <Route path="/login" exact component={Login} />
-        <Route path="/parent" component={Parent} />         
+        <Route path="/parent" component={Parent} />
         <Route path="/coach" component={Coach} />
         <Route path="/game" component={Game} />
         <Route path="/player" component={Player} />
+        <Route path="/avatar" component={Avatar} />
         <Route path="/about" component={About} />
-    
+        <Route path="/contactUs" component={Contact} />
+
       </div>
     </BrowserRouter>
   );
