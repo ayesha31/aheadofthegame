@@ -6,6 +6,7 @@ import Parent from './components/parent.js';
 import Coach from './components/coach.js';
 import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
+import Player from './components/player.js'
 import About from './components/about.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
@@ -31,8 +32,8 @@ function App() {
         <Route path="/login" exact component={Login} />
         <Route path="/parent" component={Parent} />         
         <Route path="/coach" component={Coach} />
-
         <Route path="/game" component={Game} />
+        <Route path="/player" component={Player} />
         <Route path="/about" component={About} />
     
       </div>
