@@ -9,6 +9,7 @@ import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
 import About from './components/about.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import Contact from './components/contactUs';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/coachSession" component={CoachSession} />
         <Route path="/game" component={Game} />
         <Route path="/about" component={About} />
+        <Route path="/contactUs" component={Contact} />
     
       </div>
     </BrowserRouter>
