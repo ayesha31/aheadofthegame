@@ -10,7 +10,7 @@ class Coach extends React.Component {
       q1:  '',
       q2: '',
       q3: '', 
-      end: '',
+      last: '',
     }
   }
 
@@ -23,7 +23,7 @@ class Coach extends React.Component {
    
   handleSubmit = event => {
     event.preventDefault()
-    const { q1, q2, q3, end } = this.state
+    const { q1, q2, q3, last } = this.state
   }
   
   _next = () => {
@@ -77,6 +77,19 @@ nextButton(){
   return null;
 }
   
+homeButton(){
+  let currentStep = this.state.currentStep;
+  if(currentStep == 3 ){
+    return (
+      <div className="App">
+        <Link to="/"><p id="button">Back to home</p>
+        </Link>
+      </div>        
+    )
+  }
+  return null;
+}
+
   render() {    
     return (
       <React.Fragment>
@@ -102,6 +115,7 @@ nextButton(){
         />
         {this.previousButton()}
         {this.nextButton()}
+        {this.homeButton()}
 
       </form>
       </React.Fragment>
@@ -114,23 +128,25 @@ function Step1(props) {
     return null
   } 
   return(
-    <div className="App">
-      <div className="App-form">
-        <div className="coach-container">
-          <div className="coach-form">
-            <label htmlFor="q1">In what way has Ahead of the Game improved you mental literacy?</label>
-            <input
-              className="form-control"
-              id="q1"
-              type="text"
-              placeholder="Start typing..."
-              value={props.q1}
-              onChange={props.handleChange}
-              />
+    <React.Fragment>
+      <div className="App">
+        <div className="App-form">
+          <div className="coach-container">
+            <div className="coach-form">
+              <label className="coach-form" htmlFor="q1">In what way has Ahead of the Game improved you mental literacy?</label>
+              <input
+                className="form-control coach-text"
+                id="q1"
+                type="text"
+                placeholder="Start typing..."
+                value={props.q1}
+                onChange={props.handleChange}
+                />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
@@ -139,13 +155,14 @@ function Step2(props) {
     return null
   } 
   return(
+    <React.Fragment>
     <div className="App">
       <div className="App-form">
         <div className="coach-container">
           <div className="coach-form">
-            <label htmlFor="q2">Describe your likelihood to recommend Ahead of the Game to other sporting clubs.</label>
+            <label className="coach-form" htmlFor="q2">Describe your likelihood to recommend Ahead of the Game to other sporting clubs.</label>
             <input
-              className="form-control"
+              className="form-control coach-text"
               id="q2"
               type="text"
               placeholder="Start typing..."
@@ -156,6 +173,7 @@ function Step2(props) {
         </div>
       </div>
     </div>
+    </React.Fragment>
   );
 }
 
@@ -164,13 +182,14 @@ function Step3(props) {
     return null
   } 
   return(
+    <React.Fragment>
     <div className="App">
       <div className="App-form">
         <div className="coach-container">
           <div className="coach-form">
-            <label htmlFor="q3">What improvements can be made to the program to help you develop a deeper understanding of mental health?</label>
+            <label className="coach-form" htmlFor="q3">What improvements can be made to the program to help you develop a deeper understanding of mental health?</label>
             <input
-              className="form-control"
+              className="form-control coach-text"
               id="q3"
               type="text"
               placeholder="Start typing..."
@@ -180,8 +199,13 @@ function Step3(props) {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>   
+    </React.Fragment>    
+  );     
+
 }
+
+
+
 
 export default Coach;
