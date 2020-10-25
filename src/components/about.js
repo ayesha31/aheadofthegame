@@ -22,7 +22,13 @@ class About extends React.Component {
             backgroundColor: "Black"
             
           };
-        
+          const mystyle2 = {
+            fontSize: "20",
+            padding: "50px 50px 50px 50px"
+            
+            
+            
+          };
         return (
             
             <div className="about">
@@ -32,7 +38,7 @@ class About extends React.Component {
                         
                 
                     <h1 style={mystyle} > About </h1>
-                    <p style={{padding: "150px"}, {fontSize: "20"}, {textAlign: "center"}}> Ahead of the Game uses sport to teach athletes, parents and coaches how to talk about mental health.
+                    <p style={mystyle2}> Ahead of the Game uses sport to teach athletes, parents and coaches how to talk about mental health.
                     The program reviews how to recognise mental health issues, what to do and when to get help.
                     Athletes learn how to build resilience and overcome challenges in sport and life.
                       </p>
