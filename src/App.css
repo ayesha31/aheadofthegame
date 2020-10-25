@@ -133,6 +133,14 @@ p.loginHeading {
     padding-bottom: 15px;
 }
 
+.Thermometer-select{
+  height: 50vmin;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+}
+
 h2.question {
   color: #0000008a;
 }

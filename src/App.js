@@ -9,7 +9,9 @@ import LandingPage from './components/landingPage.js';
 import Game from './components/cookieGame.js'
 // import Player from './components/player.js'
 import About from './components/about.js'
+import Player from './components/player.js'
 import Avatar from './components/avatar.js'
+import About from './components/about.js'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Contact from './components/contactUs';
 
@@ -36,7 +38,8 @@ function App() {
         <Route path="/parent" component={Parent} />
         <Route path="/coach" component={Coach} />
         <Route path="/game" component={Game} />
-        {/* <Route path="/player" component={Player} /> */}
+        <Route path="/player" component={Player} />
+        <Route path="/avatar" component={Avatar} />
         <Route path="/about" component={About} />
         <Route path="/avatar" component={Avatar} />
         <Route path="/contactUs" component={Contact} />
