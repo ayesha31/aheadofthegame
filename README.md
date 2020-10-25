@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Ahead Of The Game Progress Web -- Hackton from GiT 2020
+Our vision for this solution was to create a progressive web application that would engage young teenage males, rugby players to focus on their mental health through a fun and interactive platform. We believe this fits in well with the company vision of changing the face of men’s health. 
+We focused on ensuring that the application would focus on connecting with these team players, we looked at current gaming trends such as “Among Us” and incorporated ideas such as customisable avatars to bring our vision to life. 
+
+**Solution**
+Overview: 
+Key Features include:
+- Customisable Avatars
+- Score/Point based system
+- Interactive modules for players
+- Muddy Avatar - how fast can you click 
+
+Our desired end result is to have provided the organisation with a digital solution to their existing problem. We hope that it is interactive and is something that they could actually incorporate and work on. 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
