@@ -50,7 +50,7 @@ class Parent extends React.Component {
     if(currentStep !==1){
       return (
         <div className="App-parent">
-          <button 
+          <button className="btn" 
             id="button" 
             type="button" onClick={this._prev}>
           Previous
@@ -61,12 +61,12 @@ class Parent extends React.Component {
     return null;
   }
   
-  nextButton(){
+  nextButton() {
     let currentStep = this.state.currentStep;
     if(currentStep <3){
       return (
         <div className="App-parent">
-          <button 
+          <button className="btn" 
             id="button" 
             type="button" onClick={this._next}>
           Continue
@@ -76,7 +76,7 @@ class Parent extends React.Component {
     }
     return null;
   }
-    
+
     render() {    
       return (
         <React.Fragment>
@@ -100,8 +100,10 @@ class Parent extends React.Component {
             handleChange={this.handleChange}
             q3={this.state.q3}
           />
+    
           {this.previousButton()}
           {this.nextButton()}
+     
   
         </form>
         </React.Fragment>
@@ -119,6 +121,7 @@ class Parent extends React.Component {
           <div className="parent-container">
             <div className="parent-form">
               <label htmlFor="q1">How would you describe (Child Name's) strengths?</label>
+              <br />
               <input
                 className="form-control"
                 id="q1"
@@ -144,6 +147,7 @@ class Parent extends React.Component {
           <div className="parent-container">
             <div className="parent-form">
               <label htmlFor="q2">What do you believe his areas for improvement are?</label>
+              <br />
               <input
                 className="form-control"
                 id="q2"
@@ -169,6 +173,7 @@ class Parent extends React.Component {
           <div className="parent-container">
             <div className="parent-form">
               <label htmlFor="q3">What improvements can be made to the program to help you get a deeper understanding of (Child Name's) mental health?</label>
+              <br />
               <input
                 className="form-control"
                 id="q3"

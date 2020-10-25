@@ -1,10 +1,6 @@
-.parent-question {
-  color: black;
-  font-size: 1rem;
-}
 
-.App-header-parent {
-  background-color: white;
+.App-form-parent {
+  background-image: url("./images/lockerroom.png");
   border: 1px solid black;
   background-size: cover;
   min-height: 100vh;
@@ -12,10 +8,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(5px + 2vmin);
+  color: black;
 }
 
-
-
+.parent-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  padding: 150px 80px 150px 80px;
+}
 
