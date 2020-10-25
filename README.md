@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Ahead Of The Game Progress Web -- Hackton from GiT 2020
+## Ahead Of The Game Progress Web Application | Hack4Humanity from Girls In Tech 2020 | Team Movember-1
 Our vision for this solution was to create a progressive web application that would engage young teenage males, rugby players to focus on their mental health through a fun and interactive platform. We believe this fits in well with the company vision of changing the face of men’s health. 
 We focused on ensuring that the application would focus on connecting with these team players, we looked at current gaming trends such as “Among Us” and incorporated ideas such as customisable avatars to bring our vision to life. 
 
